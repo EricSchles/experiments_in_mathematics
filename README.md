@@ -1,0 +1,1 @@
+This repo will just be a bunch of little toy experiments.  They will be about thinking about mathematics and about playing around with them and programs.
