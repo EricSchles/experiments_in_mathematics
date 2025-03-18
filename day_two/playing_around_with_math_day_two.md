@@ -4,7 +4,7 @@ As you may be aware, triangles and geometry are the basis for the first "applica
 
 To answer this question we must first define what uniqueness means in this context -
 
-A triplet is considered unique if it's the same triplet as another triplet, but scaled up.  
+A triplet is considered non-unique if it's the same triplet as another triplet, but scaled up.  
 
 So for instance a 3,4,5 triangle is one with sides, 3, 4 and 5.  But any triangle whose ratio is 3,4,5 and relative to a scale factor is also a "3,4,5" triangle.  So while we did find a lot of triplets that "work" for creating right angle triangles, how many of them are unique?  Not just scaled versions of the 3,4,5 triangle.
 
