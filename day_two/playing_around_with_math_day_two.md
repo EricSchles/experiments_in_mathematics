@@ -74,5 +74,5 @@ if __name__ == '__main__':
 What this code does is check to see if the triplets that are generated have any common prime factors across all three numbers in the triplet.  If they do, then the triplet cannot be unique - it is a scaled up version of another triplet.  And therefore gets removed from the list.
 
 Why not check a triplet before it's added to the list?  Well that's because it actually increases the run time of our algorithm from O(N^2) to O(N^3), which is much slower.  The checking algorithm runs in O(N) so it's better to upper bound our algorithm by O(N^2) than O(N^3).  
-So - how did we get all the primes?  It turns out their is a procedure that is very old called the [sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) which helps us out here.  
+So - how did we get all the primes?  It turns out there is a procedure that is very old called the [sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) which helps us out here.  
 
